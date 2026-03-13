@@ -1,0 +1,385 @@
+{
+  "ietf-network-hardware-inventory:network-hardware-inventory": {
+    "equipment-rooms": {
+      "equipment-room": [
+        {
+          "uuid": "65a3811c-d238-47d4-93d4-feb4b5f3ce85",
+          "name": "测试机房",
+          "description": "ACTN",
+          "location": "武汉测试机房",
+          "racks": {
+            "rack": [
+              {
+                "uuid": "052c68f7-ad1c-46d3-8b67-18ffce75c588",
+                "name": "9800",
+                "description": "ACTN",
+                "rack-location": {
+                  "equipment-room-name": "测试机房"
+                },
+                "height": 2600,
+                "width": 660,
+                "depth": 600
+              },
+              {
+                "uuid": "8a7ebed2-0f6c-4865-8ad0-1b08b0bc7963",
+                "name": "1800",
+                "description": "ACTN",
+                "rack-location": {
+                  "equipment-room-name": "测试机房"
+                },
+                "height": 2200,
+                "width": 612,
+                "depth": 450
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "network-elements": {
+      "network-element": [
+        {
+          "uuid": "1aa757af-59b5-40f3-bf0c-a78d4a9cb802",
+          "name": "HUAWEI_4_28",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9800 U32",
+          "software-rev": "V100R025C00",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301263N0JC000011",
+          "product-name": "OptiX OSN 9800 U32"
+        },
+        {
+          "uuid": "9b3d7542-a87f-41d7-8000-4227f9755d4f",
+          "name": "A_M24_67",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 M24-ASON",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301267N0M2000098",
+          "product-name": "OptiX OSN 9600 M24"
+        },
+        {
+          "uuid": "4c5cadd3-7809-4317-975f-8c4080887ff8",
+          "name": "M12_2.180",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 M12",
+          "software-rev": "V100R024C00SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301555N0L7000047",
+          "product-name": "OptiX OSN 9600 M12"
+        },
+        {
+          "uuid": "0e7fbcfc-2b7e-4362-a962-1b3088db6546",
+          "name": "feihao_U32E",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 U32",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "210230075310A2000013",
+          "product-name": "OptiX OSN 9600 U32"
+        },
+        {
+          "uuid": "d60e6368-5e42-4396-86ae-33a5f61118c4",
+          "name": "xsk_M12",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9800 M12",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "TMFK1AFB01",
+          "product-name": "OptiX OSN 9800 M12"
+        },
+        {
+          "uuid": "8a973474-b8be-4519-a753-b4d8466efc4c",
+          "name": "HUAWEI_2_121",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 K36",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "2102302238N0R4000004",
+          "product-name": "OptiX OSN 9600 K36"
+        },
+        {
+          "uuid": "db6db976-5896-45bb-a1ab-1a1798dfee8c",
+          "name": "NE 9-19",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9800 M12",
+          "software-rev": "V100R024C10",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301575N0L7000020",
+          "product-name": "OptiX OSN 9800 M12"
+        },
+        {
+          "uuid": "9a3fff54-879d-4609-81ed-b68499978c55",
+          "name": "HUAWEI_2_122",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 K36",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "2102302238N0R4000005",
+          "product-name": "OptiX OSN 9600 K36"
+        },
+        {
+          "uuid": "93b8139a-37a4-4684-b915-d60e4ae10e5f",
+          "name": "HUAWEI_2_141",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 M12",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "N02180011715",
+          "product-name": "OptiX OSN 9600 M12"
+        },
+        {
+          "uuid": "f271baea-60da-4838-a59d-82ff16befd9e",
+          "name": "M12 (2-181)",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9800 M12",
+          "software-rev": "V100R024C00SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301555N0M4000764",
+          "product-name": "OptiX OSN 9800 M12"
+        },
+        {
+          "uuid": "e9a27928-f6eb-4864-aba9-bface7a05bba",
+          "name": "NE(9-21)",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9800 M12",
+          "software-rev": "V100R024C10",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301575N0L7000019",
+          "product-name": "OptiX OSN 9800 M12"
+        },
+        {
+          "uuid": "f8687433-e908-4889-be9a-1954fe4062ec",
+          "name": "NE(9-20)",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9800 M12",
+          "software-rev": "V100R024C10",
+          "mfg-name": "Huawei",
+          "serial-number": "N02180009283",
+          "product-name": "OptiX OSN 9800 M12"
+        },
+        {
+          "uuid": "fd0bb012-cbc9-497a-9231-03abc010184c",
+          "name": "K36-2_126",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 K36",
+          "software-rev": "V100R025C00",
+          "mfg-name": "Huawei",
+          "serial-number": "2102302238N0QB000005",
+          "product-name": "OptiX OSN 9600 K36"
+        },
+        {
+          "uuid": "bb9d5270-4088-4983-ae29-405a76ee8023",
+          "name": "HUAWEI_2_123",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 K36",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "2102302238N0QB000009",
+          "product-name": "OptiX OSN 9600 K36"
+        },
+        {
+          "uuid": "b9f53fcc-8e2b-4a17-bcbd-015a34fa5bd5",
+          "name": "Site B-O",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 M12-ASON",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301555N0M1001139",
+          "product-name": "OptiX OSN 9600 M12"
+        },
+        {
+          "uuid": "3be3ca87-791c-4a62-b2de-7e8dbe639b89",
+          "name": "K36-2_125",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 K36",
+          "software-rev": "V100R025C00",
+          "mfg-name": "Huawei",
+          "serial-number": "2102302238N0QC000021",
+          "product-name": "OptiX OSN 9600 K36"
+        },
+        {
+          "uuid": "063707f0-1e22-4aed-b060-c7ac87392823",
+          "name": "HUAWEI_4_27",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9800 K36",
+          "software-rev": "V100R025C00",
+          "mfg-name": "Huawei",
+          "serial-number": "2102302177N0Q4000017",
+          "product-name": "OptiX OSN 9800 K36"
+        },
+        {
+          "uuid": "c4019af2-f363-4b3e-80c3-f71d694a3aed",
+          "name": "U32_2_65",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 U32-ASON",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301211N0J6000019",
+          "product-name": "OptiX OSN 9600 U32"
+        },
+        {
+          "uuid": "773d24ac-226d-4b7a-b7d5-1f20989bcd71",
+          "name": "feihao-M12",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9800 M12",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301555N0L6000751",
+          "product-name": "OptiX OSN 9800 M12"
+        },
+        {
+          "uuid": "5931902d-341e-4b9d-b9c7-3d3c7f15cf00",
+          "name": "HUAWEI_2_133",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 P32",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301468N0K4000002",
+          "product-name": "OptiX OSN 9600 P32"
+        },
+        {
+          "uuid": "8ecd7bbc-893e-4bc4-8b76-f64214e4bb48",
+          "name": "HUAWEI_8_99",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9800 M12",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301575N0L7000005",
+          "product-name": "OptiX OSN 9800 M12"
+        },
+        {
+          "uuid": "155dd01c-e33f-4bcd-9fef-016941dec51e",
+          "name": "HUAWEI_8_77",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 M24",
+          "software-rev": "V100R025C00",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301153N0L4000343",
+          "product-name": "OptiX OSN 9600 M24"
+        },
+        {
+          "uuid": "0c823403-7a13-4be8-8ea9-e743e0a32003",
+          "name": "NE(4-84)",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 1800 V Pro",
+          "software-rev": "V100R025C00SPC010",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301629N0L7000115",
+          "product-name": "OptiX OSN 1800 V Pro"
+        },
+        {
+          "uuid": "9cafdca6-b5e1-4bf2-94d6-49e9dcca71cc",
+          "name": "HUAWEI_10_16",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9800 U32",
+          "software-rev": "V100R024C10SPC100B062",
+          "mfg-name": "Huawei",
+          "serial-number": "123456075310A2000018",
+          "product-name": "OptiX OSN 9800 U32"
+        },
+        {
+          "uuid": "fb6c7ff2-36aa-4c21-ab0d-56b0768369b3",
+          "name": "NE(9-17)",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9800 M24",
+          "software-rev": "V100R024C10",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301153N0Q4000545",
+          "product-name": "OptiX OSN 9800 M24"
+        },
+        {
+          "uuid": "ee138711-7c82-4c31-a11f-8c9a9f8a5525",
+          "name": "NE(9-16)",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9800 M24",
+          "software-rev": "V100R024C10",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301267N0M8000104",
+          "product-name": "OptiX OSN 9800 M24"
+        },
+        {
+          "uuid": "d07add70-ec95-4d3f-8182-49087c756c64",
+          "name": "xushikang_U32",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 U32",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301211N0J6000013",
+          "product-name": "OptiX OSN 9600 U32"
+        },
+        {
+          "uuid": "7f005a1f-d3b6-4e0c-8cc1-f19e512cc374",
+          "name": "A_U32_61",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 U32-ASON",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "123456075310A2000010",
+          "product-name": "OptiX OSN 9600 U32"
+        },
+        {
+          "uuid": "8857afa0-dbfc-4f06-b20b-97a3dd7cd5ea",
+          "name": "C-M24-69",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9600 M24",
+          "software-rev": "V100R024C10SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301267N0M8000148",
+          "product-name": "OptiX OSN 9600 M24"
+        },
+        {
+          "uuid": "7ffe5921-9c0e-4f1a-9aca-37b621d5c70b",
+          "name": "NE 9-18",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9800 M12",
+          "software-rev": "V100R024C10",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301555N0M4000763",
+          "product-name": "OptiX OSN 9800 M12"
+        },
+        {
+          "uuid": "c1c7b507-5a7a-4f5a-9cb2-dc150aa19bf7",
+          "name": "M12_2_130",
+          "description": "",
+          "alias": "",
+          "hardware-rev": "OptiX OSN 9800 M12-ASON",
+          "software-rev": "V100R024C00SPC100",
+          "mfg-name": "Huawei",
+          "serial-number": "2102301555N0M4000734",
+          "product-name": "OptiX OSN 9800 M12"
+        }
+      ]
+    }
+  }
+}
