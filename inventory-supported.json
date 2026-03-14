@@ -1,383 +1,2485 @@
 {
   "ietf-network-hardware-inventory:network-hardware-inventory": {
-    "equipment-rooms": {
-      "equipment-room": [
-        {
-          "uuid": "65a3811c-d238-47d4-93d4-feb4b5f3ce85",
-          "name": "测试机房",
-          "description": "ACTN",
-          "location": "武汉测试机房",
-          "racks": {
-            "rack": [
-              {
-                "uuid": "052c68f7-ad1c-46d3-8b67-18ffce75c588",
-                "name": "9800",
-                "description": "ACTN",
-                "rack-location": {
-                  "equipment-room-name": "测试机房"
-                },
-                "height": 2600,
-                "width": 660,
-                "depth": 600
-              },
-              {
-                "uuid": "8a7ebed2-0f6c-4865-8ad0-1b08b0bc7963",
-                "name": "1800",
-                "description": "ACTN",
-                "rack-location": {
-                  "equipment-room-name": "测试机房"
-                },
-                "height": 2200,
-                "width": 612,
-                "depth": 450
-              }
-            ]
-          }
-        }
-      ]
-    },
     "network-elements": {
       "network-element": [
         {
-          "uuid": "1aa757af-59b5-40f3-bf0c-a78d4a9cb802",
-          "name": "HUAWEI_4_28",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9800 U32",
-          "software-rev": "V100R025C00",
           "mfg-name": "Huawei",
-          "serial-number": "2102301263N0JC000011",
-          "product-name": "OptiX OSN 9800 U32"
-        },
-        {
-          "uuid": "9b3d7542-a87f-41d7-8000-4227f9755d4f",
-          "name": "A_M24_67",
           "description": "",
+          "uuid": "df51cfc0-dd0d-4071-99f9-41834c827039",
           "alias": "",
-          "hardware-rev": "OptiX OSN 9600 M24-ASON",
-          "software-rev": "V100R024C10SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301267N0M2000098",
-          "product-name": "OptiX OSN 9600 M24"
-        },
-        {
-          "uuid": "4c5cadd3-7809-4317-975f-8c4080887ff8",
-          "name": "M12_2.180",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9600 M12",
-          "software-rev": "V100R024C00SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301555N0L7000047",
-          "product-name": "OptiX OSN 9600 M12"
-        },
-        {
-          "uuid": "0e7fbcfc-2b7e-4362-a962-1b3088db6546",
-          "name": "feihao_U32E",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9600 U32",
-          "software-rev": "V100R024C10SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "210230075310A2000013",
-          "product-name": "OptiX OSN 9600 U32"
-        },
-        {
-          "uuid": "d60e6368-5e42-4396-86ae-33a5f61118c4",
-          "name": "xsk_M12",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9800 M12",
-          "software-rev": "V100R024C10SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "TMFK1AFB01",
-          "product-name": "OptiX OSN 9800 M12"
-        },
-        {
-          "uuid": "8a973474-b8be-4519-a753-b4d8466efc4c",
-          "name": "HUAWEI_2_121",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9600 K36",
-          "software-rev": "V100R024C10SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "2102302238N0R4000004",
-          "product-name": "OptiX OSN 9600 K36"
-        },
-        {
-          "uuid": "db6db976-5896-45bb-a1ab-1a1798dfee8c",
-          "name": "NE 9-19",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9800 M12",
-          "software-rev": "V100R024C10",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301575N0L7000020",
-          "product-name": "OptiX OSN 9800 M12"
-        },
-        {
-          "uuid": "9a3fff54-879d-4609-81ed-b68499978c55",
-          "name": "HUAWEI_2_122",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9600 K36",
-          "software-rev": "V100R024C10SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "2102302238N0R4000005",
-          "product-name": "OptiX OSN 9600 K36"
-        },
-        {
-          "uuid": "93b8139a-37a4-4684-b915-d60e4ae10e5f",
-          "name": "HUAWEI_2_141",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9600 M12",
-          "software-rev": "V100R024C10SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "N02180011715",
-          "product-name": "OptiX OSN 9600 M12"
-        },
-        {
-          "uuid": "f271baea-60da-4838-a59d-82ff16befd9e",
-          "name": "M12 (2-181)",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9800 M12",
-          "software-rev": "V100R024C00SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301555N0M4000764",
-          "product-name": "OptiX OSN 9800 M12"
-        },
-        {
-          "uuid": "e9a27928-f6eb-4864-aba9-bface7a05bba",
-          "name": "NE(9-21)",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9800 M12",
-          "software-rev": "V100R024C10",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301575N0L7000019",
-          "product-name": "OptiX OSN 9800 M12"
-        },
-        {
-          "uuid": "f8687433-e908-4889-be9a-1954fe4062ec",
-          "name": "NE(9-20)",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9800 M12",
-          "software-rev": "V100R024C10",
-          "mfg-name": "Huawei",
-          "serial-number": "N02180009283",
-          "product-name": "OptiX OSN 9800 M12"
-        },
-        {
-          "uuid": "fd0bb012-cbc9-497a-9231-03abc010184c",
-          "name": "K36-2_126",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9600 K36",
-          "software-rev": "V100R025C00",
-          "mfg-name": "Huawei",
-          "serial-number": "2102302238N0QB000005",
-          "product-name": "OptiX OSN 9600 K36"
-        },
-        {
-          "uuid": "bb9d5270-4088-4983-ae29-405a76ee8023",
-          "name": "HUAWEI_2_123",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9600 K36",
-          "software-rev": "V100R024C10SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "2102302238N0QB000009",
-          "product-name": "OptiX OSN 9600 K36"
-        },
-        {
-          "uuid": "b9f53fcc-8e2b-4a17-bcbd-015a34fa5bd5",
-          "name": "Site B-O",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9600 M12-ASON",
-          "software-rev": "V100R024C10SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301555N0M1001139",
-          "product-name": "OptiX OSN 9600 M12"
-        },
-        {
-          "uuid": "3be3ca87-791c-4a62-b2de-7e8dbe639b89",
-          "name": "K36-2_125",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9600 K36",
-          "software-rev": "V100R025C00",
-          "mfg-name": "Huawei",
-          "serial-number": "2102302238N0QC000021",
-          "product-name": "OptiX OSN 9600 K36"
-        },
-        {
-          "uuid": "063707f0-1e22-4aed-b060-c7ac87392823",
-          "name": "HUAWEI_4_27",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9800 K36",
-          "software-rev": "V100R025C00",
-          "mfg-name": "Huawei",
-          "serial-number": "2102302177N0Q4000017",
-          "product-name": "OptiX OSN 9800 K36"
-        },
-        {
-          "uuid": "c4019af2-f363-4b3e-80c3-f71d694a3aed",
-          "name": "U32_2_65",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9600 U32-ASON",
-          "software-rev": "V100R024C10SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301211N0J6000019",
-          "product-name": "OptiX OSN 9600 U32"
-        },
-        {
-          "uuid": "773d24ac-226d-4b7a-b7d5-1f20989bcd71",
-          "name": "feihao-M12",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9800 M12",
-          "software-rev": "V100R024C10SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301555N0L6000751",
-          "product-name": "OptiX OSN 9800 M12"
-        },
-        {
-          "uuid": "5931902d-341e-4b9d-b9c7-3d3c7f15cf00",
-          "name": "HUAWEI_2_133",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9600 P32",
-          "software-rev": "V100R024C10SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301468N0K4000002",
-          "product-name": "OptiX OSN 9600 P32"
-        },
-        {
-          "uuid": "8ecd7bbc-893e-4bc4-8b76-f64214e4bb48",
-          "name": "HUAWEI_8_99",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9800 M12",
-          "software-rev": "V100R024C10SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301575N0L7000005",
-          "product-name": "OptiX OSN 9800 M12"
-        },
-        {
-          "uuid": "155dd01c-e33f-4bcd-9fef-016941dec51e",
-          "name": "HUAWEI_8_77",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9600 M24",
-          "software-rev": "V100R025C00",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301153N0L4000343",
-          "product-name": "OptiX OSN 9600 M24"
-        },
-        {
-          "uuid": "0c823403-7a13-4be8-8ea9-e743e0a32003",
-          "name": "NE(4-84)",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 1800 V Pro",
-          "software-rev": "V100R025C00SPC010",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301629N0L7000115",
-          "product-name": "OptiX OSN 1800 V Pro"
-        },
-        {
-          "uuid": "9cafdca6-b5e1-4bf2-94d6-49e9dcca71cc",
-          "name": "HUAWEI_10_16",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9800 U32",
-          "software-rev": "V100R024C10SPC100B062",
-          "mfg-name": "Huawei",
-          "serial-number": "123456075310A2000018",
-          "product-name": "OptiX OSN 9800 U32"
-        },
-        {
-          "uuid": "fb6c7ff2-36aa-4c21-ab0d-56b0768369b3",
-          "name": "NE(9-17)",
-          "description": "",
-          "alias": "",
+          "product-name": "OptiX OSN 9800 M24",
+          "serial-number": "2102301267N0KB000125",
           "hardware-rev": "OptiX OSN 9800 M24",
-          "software-rev": "V100R024C10",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301153N0Q4000545",
-          "product-name": "OptiX OSN 9800 M24"
-        },
-        {
-          "uuid": "ee138711-7c82-4c31-a11f-8c9a9f8a5525",
-          "name": "NE(9-16)",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9800 M24",
-          "software-rev": "V100R024C10",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301267N0M8000104",
-          "product-name": "OptiX OSN 9800 M24"
-        },
-        {
-          "uuid": "d07add70-ec95-4d3f-8182-49087c756c64",
-          "name": "xushikang_U32",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9600 U32",
           "software-rev": "V100R024C10SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301211N0J6000013",
-          "product-name": "OptiX OSN 9600 U32"
+          "name": "HUAWEI_8_218",
+          "components": {
+            "component": [
+              {
+                "hardware-rev": "OptiX OSN 9800 M24",
+                "mfg-name": "Huawei",
+                "description": "",
+                "class": "iana-hardware:chassis",
+                "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1",
+                "serial-num": "2102301267N0KB000125",
+                "software-rev": "V100R024C10SPC100",
+                "name": "HUAWEI_8_218_subrack",
+                "location": "/ne=HUAWEI_8_218/sh=0"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "e812e60e-533c-407f-955e-8e43f7f4770c",
+                "name": "Shelf0-153",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=153"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "0bba5be6-26b3-40bf-9ee3-a26596381010",
+                "name": "Shelf0-18",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=18"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "9beab4ea-55d6-40ed-aeea-5cbea29dc364",
+                "name": "Shelf0-91",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=91"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "652429e6-db82-41ad-8636-86489d186c90",
+                "name": "Shelf0-71",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=71"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "d4117d58-d7e0-4256-b460-20b6d15ae704",
+                "name": "Shelf0-203",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=203"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "d4091dad-dd8e-42fb-9dd0-332d51a043ce",
+                "name": "Shelf0-198",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=198"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "aaa6a895-4170-4396-80a4-a0f73bf2d67f",
+                "name": "Shelf0-146",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=146"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "6902c6ef-4bb8-43f0-8e04-f2576129c854",
+                "name": "Shelf0-206",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=206"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "a69c23c7-a9a1-4409-89f0-59daf9e9d50d",
+                "name": "Shelf0-13",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "7792785f-c50d-441a-a3e9-e21bc8b3401f",
+                "name": "Shelf0-155",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=155"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "e1aafdf9-500f-44cc-83d0-f41c45187dfa",
+                "name": "Shelf0-101",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=101"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "3c677f93-469f-453a-a6ad-d2b78ab6c45f",
+                "name": "Shelf0-192",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=192"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "e87a91ce-2493-4548-83fb-bead6ffcde0b",
+                "name": "Shelf0-9",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "338a8f6f-1c8f-45a6-a832-cc36c9a9cf69",
+                "name": "Shelf0-149",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=149"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "512259ad-a259-45a6-b721-01f61628af30",
+                "name": "Shelf0-202",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=202"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "08c7205c-90d0-45cd-bbe3-e84887aec4b7",
+                "name": "Shelf0-205",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=205"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "4b721fca-4425-463f-b871-57ca2c432704",
+                "name": "Shelf0-148",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=148"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "799f43bd-f857-465c-8700-a83bf89a78d4",
+                "name": "Shelf0-201",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=201"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "ce6e58de-9f87-4682-ad01-f96f11925265",
+                "name": "Shelf0-10",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=10"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "1514a50b-28d7-468a-9234-e6c1fb81739a",
+                "name": "Shelf0-200",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=200"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "692e9732-e4f3-46e3-b12b-a1b3bc4fa786",
+                "name": "Shelf0-156",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=156"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "96706b26-e762-46f9-94a6-2fd64621ea76",
+                "name": "Shelf0-100",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=100"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "9db90883-4193-471b-b239-35c2a1dbbb4a",
+                "name": "Shelf0-7",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=7"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "dd84410e-a350-478b-b13e-4c96acc9017f",
+                "name": "Shelf0-103",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=103"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "9e990bea-a90f-47cb-b916-c4305996a6f1",
+                "name": "Shelf0-3",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=3"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "79c34e72-f5b0-4804-962a-0c3c7250bed1",
+                "name": "Shelf0-142",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=142"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "364b0c5d-5fe6-4813-a445-c395b151996a",
+                "name": "Shelf0-196",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=196"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "3607781f-6daf-4820-bc65-bfdfae266e45",
+                "name": "Shelf0-1",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=1"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "61671068-14d8-4834-b5e1-ee5f4e549b19",
+                "name": "Shelf0-22",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=22"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "386b4f98-05ba-4844-880b-2c1b150fcdc2",
+                "name": "Shelf0-2",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=2"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "d6579200-d8e5-4878-bb40-966a462964c8",
+                "name": "Shelf0-14",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=14"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "31394268-c200-489b-aa92-0cff58a9dfae",
+                "name": "Shelf0-147",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=147"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "bdc0c6a8-6d77-48a5-9e5e-10e807a532d8",
+                "name": "Shelf0-204",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=204"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "6dc766a4-08c6-4918-9e99-7ebb588683ca",
+                "name": "Shelf0-90",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=90"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "106c349f-4274-4927-bbfd-28ad22145ae8",
+                "name": "Shelf0-143",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=143"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "0db5e1dd-323a-4956-866a-9bf88b2f36a5",
+                "name": "Shelf0-190",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=190"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "efb6ccac-3e8a-496a-b6ea-c80819941191",
+                "name": "Shelf0-145",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=145"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "8bf7b3fe-a67d-4982-9dca-9df28809f166",
+                "name": "Shelf0-12",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=12"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "0d70bec9-4e58-49cf-ab34-659176816b92",
+                "name": "Shelf0-152",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=152"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "9697481e-aa50-4a2e-90a9-cf494daecf58",
+                "name": "Shelf0-6",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=6"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "179554a5-0afc-4a5f-9e7b-4b1a237c5067",
+                "name": "Shelf0-158",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=158"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "5b8dd611-4be3-4a72-bef7-de519d97c670",
+                "name": "Shelf0-20",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=20"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "b6717a68-0f10-4adc-b799-cceeb07ca286",
+                "name": "Shelf0-106",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=106"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "664ee85c-fb93-4b0a-9cba-aabe1e993c28",
+                "name": "Shelf0-159",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=159"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "6456d4bf-00c4-4bb7-827a-a124bb94c5b3",
+                "name": "Shelf0-191",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=191"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "5879a635-10ec-4bb7-a1cf-5b60251e765a",
+                "name": "Shelf0-193",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=193"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "0ec9132f-24e6-4bc1-a60c-9147a7ceea85",
+                "name": "Shelf0-207",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=207"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "857b0c86-ccc0-4bfe-9dc8-b62d30bc9c82",
+                "name": "Shelf0-15",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=15"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "d56eb2e7-6741-4c01-b2ca-6d063442ffc8",
+                "name": "Shelf0-23",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=23"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "ab196b50-2910-4c78-95be-9c85b451ee4a",
+                "name": "Shelf0-150",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=150"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "318ea867-52e6-4cf4-8500-c2024e8d282b",
+                "name": "Shelf0-157",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=157"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "0acf6d9f-8718-4d12-9cda-c559480ba732",
+                "name": "Shelf0-72",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=72"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "76c510de-25c5-4d4b-9653-90319c21904f",
+                "name": "Shelf0-199",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=199"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "8d597304-cc38-4d5c-a697-1e4b5dfe0e74",
+                "name": "Shelf0-195",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=195"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "dac20df9-4260-4d60-84e0-f245e41eb39e",
+                "name": "Shelf0-17",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=17"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "ce1573e0-b683-4d64-a57e-4c12ea2b4780",
+                "name": "Shelf0-21",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=21"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "bf886f70-33ef-4d77-8ec4-5c5a3ab07c59",
+                "name": "Shelf0-197",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=197"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "2019247e-344e-4d85-8616-ef826a556f25",
+                "name": "Shelf0-11",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=11"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "11aa3dbf-7750-4dc6-86a0-b2d0371b86f3",
+                "name": "Shelf0-19",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=19"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "bcccc656-cd0f-4e02-9f96-5c50ac627cc6",
+                "name": "Shelf0-24",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=24"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "bf9957cb-0188-4e0d-9a9e-2c16e43e4f7e",
+                "name": "Shelf0-105",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=105"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "c8c3b17a-4af7-4e13-99a2-206f80ca3cef",
+                "name": "Shelf0-144",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=144"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "ab83f53b-dc60-4e13-81d4-efa37d2a2e85",
+                "name": "Shelf0-194",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=194"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "1be655a2-c9a4-4ecf-890f-86a4d3050746",
+                "name": "Shelf0-8",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=8"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "d2c85fdc-cd03-4f13-ae8d-f7c3b1ad2fd2",
+                "name": "Shelf0-16",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=16"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "e08e788b-e090-4f15-a48d-c9ccd4a09bdc",
+                "name": "Shelf0-154",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=154"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "e0a1cabe-4085-4f97-b953-2c1defcc2853",
+                "name": "Shelf0-151",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=151"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "6f2f1d50-997f-4fd0-a304-a28f9946385d",
+                "name": "Shelf0-4",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=4"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:container",
+                "uuid": "863da5c8-e443-4fe5-9e0b-48945f3cf748",
+                "name": "Shelf0-5",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=5"
+              },
+              {
+                "mfg-name": "Huawei",
+                "description": "",
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    },
+                    {
+                      "index": 2,
+                      "class": "iana-hardware:container",
+                      "uuid": "1be655a2-c9a4-4ecf-890f-86a4d3050746"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:module",
+                "uuid": "9acd8b48-09a4-420e-8bba-f81f6fdf6cd7",
+                "name": "Shelf0-8-S7N502",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=8"
+              },
+              {
+                "hardware-rev": "VER.A",
+                "mfg-name": "Huawei",
+                "description": "",
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    },
+                    {
+                      "index": 2,
+                      "class": "iana-hardware:container",
+                      "uuid": "ce6e58de-9f87-4682-ad01-f96f11925265"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:module",
+                "uuid": "57419f1f-cfce-4411-8b67-63b320593881",
+                "serial-num": "033HED10L5000020",
+                "software-rev": "24.26",
+                "firmware-rev": "24.26/24.26",
+                "name": "Shelf0-10-S7N502",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=10"
+              },
+              {
+                "hardware-rev": "VER.B",
+                "mfg-name": "Huawei",
+                "description": "",
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    },
+                    {
+                      "index": 2,
+                      "class": "iana-hardware:container",
+                      "uuid": "e1aafdf9-500f-44cc-83d0-f41c45187dfa"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:module",
+                "uuid": "a93792fd-0251-45a8-9a18-391036e75b1b",
+                "serial-num": "024EPKW0KB001567",
+                "software-rev": "1.10",
+                "name": "Shelf0-101-G2PIU",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=101"
+              },
+              {
+                "hardware-rev": "VER.B",
+                "mfg-name": "Huawei",
+                "description": "",
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    },
+                    {
+                      "index": 2,
+                      "class": "iana-hardware:container",
+                      "uuid": "96706b26-e762-46f9-94a6-2fd64621ea76"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:module",
+                "uuid": "906fec34-ed0a-4617-9bf2-0ec9355dcde0",
+                "serial-num": "024EPKW0KB001569",
+                "software-rev": "1.10",
+                "name": "Shelf0-100-G2PIU",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=100"
+              },
+              {
+                "hardware-rev": "VER.B",
+                "mfg-name": "Huawei",
+                "description": "",
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    },
+                    {
+                      "index": 2,
+                      "class": "iana-hardware:container",
+                      "uuid": "bf9957cb-0188-4e0d-9a9e-2c16e43e4f7e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:module",
+                "uuid": "fb49d9ef-92f7-4628-ac9f-883d604a49ab",
+                "serial-num": "024EPKW0KB001566",
+                "software-rev": "1.11",
+                "name": "Shelf0-105-G2PIU",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=105"
+              },
+              {
+                "mfg-name": "Huawei",
+                "description": "",
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    },
+                    {
+                      "index": 2,
+                      "class": "iana-hardware:container",
+                      "uuid": "3607781f-6daf-4820-bc65-bfdfae266e45"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:module",
+                "uuid": "72295492-9137-4763-aa7a-3f4d9dfbbdc8",
+                "name": "Shelf0-1-G1M402",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=1"
+              },
+              {
+                "mfg-name": "Huawei",
+                "description": "",
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    },
+                    {
+                      "index": 2,
+                      "class": "iana-hardware:container",
+                      "uuid": "a69c23c7-a9a1-4409-89f0-59daf9e9d50d"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:module",
+                "uuid": "81f69927-dd46-4944-804e-2a4a1712680e",
+                "name": "Shelf0-13-G6WDAPXF",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13"
+              },
+              {
+                "hardware-rev": "VER.B",
+                "mfg-name": "Huawei",
+                "description": "",
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    },
+                    {
+                      "index": 2,
+                      "class": "iana-hardware:container",
+                      "uuid": "dd84410e-a350-478b-b13e-4c96acc9017f"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:module",
+                "uuid": "f94a25df-c985-4a13-8ec3-e9c6f90c22fa",
+                "serial-num": "024ENFW0KA003478",
+                "software-rev": "1.11",
+                "name": "Shelf0-103-G1EFI",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=103"
+              },
+              {
+                "hardware-rev": "VER.B",
+                "mfg-name": "Huawei",
+                "description": "",
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    },
+                    {
+                      "index": 2,
+                      "class": "iana-hardware:container",
+                      "uuid": "b6717a68-0f10-4adc-b799-cceeb07ca286"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:module",
+                "uuid": "cb6e527a-014a-4aaf-abfa-8d126c8c5ed4",
+                "serial-num": "024EPKW0KB001568",
+                "software-rev": "1.11",
+                "name": "Shelf0-106-G2PIU",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=106"
+              },
+              {
+                "hardware-rev": "VER.B",
+                "mfg-name": "Huawei",
+                "description": "",
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    },
+                    {
+                      "index": 2,
+                      "class": "iana-hardware:container",
+                      "uuid": "9beab4ea-55d6-40ed-aeea-5cbea29dc364"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:module",
+                "uuid": "b2ab65ed-b63c-4daa-b36e-30a9e72f1f76",
+                "serial-num": "2102121961N0KB000941",
+                "software-rev": "1.60",
+                "name": "Shelf0-91-G1FAN",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=91"
+              },
+              {
+                "hardware-rev": "VER.A",
+                "mfg-name": "Huawei",
+                "description": "",
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    },
+                    {
+                      "index": 2,
+                      "class": "iana-hardware:container",
+                      "uuid": "e87a91ce-2493-4548-83fb-bead6ffcde0b"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:module",
+                "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9",
+                "serial-num": "031YHH10J6000719",
+                "software-rev": "24.26",
+                "firmware-rev": "24.26/24.26",
+                "name": "Shelf0-9-V3T230",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9"
+              },
+              {
+                "hardware-rev": "VER.B",
+                "mfg-name": "Huawei",
+                "description": "",
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    },
+                    {
+                      "index": 2,
+                      "class": "iana-hardware:container",
+                      "uuid": "6dc766a4-08c6-4918-9e99-7ebb588683ca"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:module",
+                "uuid": "985f52b7-de8b-4ed8-ad4c-7573e046e81e",
+                "serial-num": "2102121961N0KB000940",
+                "software-rev": "1.60",
+                "name": "Shelf0-90-G1FAN",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=90"
+              },
+              {
+                "hardware-rev": "VER.A",
+                "mfg-name": "Huawei",
+                "description": "",
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    },
+                    {
+                      "index": 2,
+                      "class": "iana-hardware:container",
+                      "uuid": "0acf6d9f-8718-4d12-9cda-c559480ba732"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:module",
+                "uuid": "67b4914b-40f9-4f9e-8e26-c7598b423f70",
+                "serial-num": "033FTV10KB000009",
+                "software-rev": "5.172.24.26/5.172.24.26",
+                "firmware-rev": "9.24.26/9.24.26",
+                "name": "Shelf0-72-G3CXP",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=72"
+              },
+              {
+                "hardware-rev": "VER.A",
+                "mfg-name": "Huawei",
+                "description": "",
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:chassis",
+                      "uuid": "3a74f86f-2764-47db-b698-0806fb6fa9e1"
+                    },
+                    {
+                      "index": 2,
+                      "class": "iana-hardware:container",
+                      "uuid": "652429e6-db82-41ad-8636-86489d186c90"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:module",
+                "uuid": "8b327342-8e5d-4fdc-a237-d4e38abb10e0",
+                "serial-num": "033HBM10KB000749",
+                "software-rev": "5.172.24.26/5.172.24.26",
+                "firmware-rev": "9.24.26/9.24.26",
+                "name": "Shelf0-71-G3CXP",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=71"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "8b327342-8e5d-4fdc-a237-d4e38abb10e0"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "430fb99a-d8be-4038-aeb4-646d17cafbcf",
+                "name": "ETH2/ETH2",
+                "alias": "ETH2/ETH2",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=71/p=11"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "bfd4d454-f8a9-409d-85ba-83a87b0f1540",
+                "name": "RL",
+                "alias": "RL",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=19"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "bb404f1f-b0b5-40a0-9b00-70e015c22117",
+                "name": "L_MON",
+                "alias": "L_MON",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=18"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "84794ce1-4b74-40aa-81c3-4fca2e9c464c",
+                "name": "RX28/TX28",
+                "alias": "RX28/TX28",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=28"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "a084acd5-d5b9-40c8-a67f-98758baea935",
+                "name": "C_MON",
+                "alias": "C_MON",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=7"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "db929dc6-3561-4109-979e-8d009fa05fec",
+                "name": "RX8/TX8",
+                "alias": "RX8/TX8",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=8"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "759867d0-25fe-4141-8584-7104e9ac16e8",
+                "name": "RX1/TX1",
+                "alias": "RX1/TX1",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=1"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "9acd8b48-09a4-420e-8bba-f81f6fdf6cd7"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "fe578581-f5d9-4158-96e7-a6160c1537c2",
+                "name": "IN1/OUT1",
+                "alias": "IN1/OUT1",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=8/p=1"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "1ea978de-a529-41f7-96f5-e2bc0bc62a27",
+                "name": "RX27/TX27",
+                "alias": "RX27/TX27",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=27"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "72295492-9137-4763-aa7a-3f4d9dfbbdc8"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "65f0511f-e679-4231-9ebf-32f1b49341f0",
+                "name": "RX2/TX2",
+                "alias": "RX2/TX2",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=1/p=4"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "b2f371a9-6f22-4259-8c45-89fe67f1fb5b",
+                "name": "RX21/TX21",
+                "alias": "RX21/TX21",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=21"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "aa7d9496-3277-4285-ad7a-8897fc485d49",
+                "name": "RX20/TX20",
+                "alias": "RX20/TX20",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=20"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "af117031-6fb1-4290-8ad5-640843d39f43",
+                "name": "INC/OUTC",
+                "alias": "INC/OUTC",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=9"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "c5654dc1-05c4-42e8-8126-766546193b8b",
+                "name": "L_OUT",
+                "alias": "L_OUT",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=17"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "901e93e4-3ba5-42f2-8337-c2aa8d69601d",
+                "name": "RX3/TX3",
+                "alias": "RX3/TX3",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=3"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "1f02cc83-1802-432f-8580-8a6d18d1f630",
+                "name": "RX4/TX4",
+                "alias": "RX4/TX4",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=4"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "40dcb4e6-a234-4345-b1a7-aa9752880eba",
+                "name": "TL",
+                "alias": "TL",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=31"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "f94a25df-c985-4a13-8ec3-e9c6f90c22fa"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "56280d60-31c2-4377-b520-51ad9a233c9e",
+                "name": "NMETH1/NMETH1",
+                "alias": "NMETH1/NMETH1",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=103/p=12"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "31cd2678-9a8f-438a-85ae-f19cfb9781df",
+                "name": "RX9/TX9",
+                "alias": "RX9/TX9",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=9"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "8b327342-8e5d-4fdc-a237-d4e38abb10e0"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "5467ee29-6fa3-43b5-82c1-84ef56d83bf8",
+                "name": "ETH1/ETH1",
+                "alias": "ETH1/ETH1",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=71/p=10"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "a8b20364-dcc7-4441-9f34-45123b32b2cd",
+                "name": "RM2/RM2",
+                "alias": "RM2/RM2",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=22"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "93a0af07-8a06-4472-879b-bb2c1361b107",
+                "name": "RX17/TX17",
+                "alias": "RX17/TX17",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=17"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "041e4ec9-debc-447d-b0c2-ed84b4cfbfbe",
+                "name": "C_VI",
+                "alias": "C_VI",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=1"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "66124bbe-8b49-4485-8285-3e3dd100313e",
+                "name": "RX23/TX23",
+                "alias": "RX23/TX23",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=23"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "921a20e3-da66-44cd-9268-eb1d7a089ee2",
+                "name": "RX13/TX13",
+                "alias": "RX13/TX13",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=13"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "ee01180d-b1f8-4524-9958-994506f6b03d",
+                "name": "L_VO",
+                "alias": "L_VO",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=13"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "ad81f083-5ee8-4559-ae1c-ec21447f87d6",
+                "name": "RX10/TX10",
+                "alias": "RX10/TX10",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=10"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "5bd68c4a-f0d7-456f-b59b-a3dc961086ad",
+                "name": "RX2/TX2",
+                "alias": "RX2/TX2",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=2"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "79ee1208-807a-460e-9b45-c46bb9c4bd03",
+                "name": "LINEIN/LINEOUT",
+                "alias": "LINEIN/LINEOUT",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=11"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "9acd8b48-09a4-420e-8bba-f81f6fdf6cd7"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "57c4a402-de52-4633-9365-38d8d44774e7",
+                "name": "IN2/OUT2",
+                "alias": "IN2/OUT2",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=8/p=2"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "04e2f17e-0c91-46a6-a409-a147af9fd82f",
+                "name": "C_IN",
+                "alias": "C_IN",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=3"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "7465819b-cbd0-46dc-8866-21bd0502ecfc",
+                "name": "RX18/TX18",
+                "alias": "RX18/TX18",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=18"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "11a76aea-8649-46ec-b6ad-bcc93323e08d",
+                "name": "RX7/TX7",
+                "alias": "RX7/TX7",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=7"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "ed9ea621-9678-46f0-a1b2-f57be1627988",
+                "name": "RX22/TX22",
+                "alias": "RX22/TX22",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=22"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "81791d78-2fae-4701-a2b4-552e9dd43ebd",
+                "name": "TM2/TM2",
+                "alias": "TM2/TM2",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=21"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "081b14b2-3911-4781-94c7-e6c758f85898",
+                "name": "SYSRC/SYSTC",
+                "alias": "SYSRC/SYSTC",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=10"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "26d37c6a-a02a-47c4-a7e1-385f794bb5eb",
+                "name": "RX11/TX11",
+                "alias": "RX11/TX11",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=11"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "9b56de7f-72bf-47c5-b68f-6c92f06f6c27",
+                "name": "RX15/TX15",
+                "alias": "RX15/TX15",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=15"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "3e1acd45-d221-47ce-b92f-9e8fe04a9f89",
+                "name": "C_OUT",
+                "alias": "C_OUT",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=6"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "308a798d-357b-4804-bd3f-7f1ed292a0d9",
+                "name": "TC",
+                "alias": "TC",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=30"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "67b4914b-40f9-4f9e-8e26-c7598b423f70"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "328a16c6-e747-480e-8f9c-f50000b57911",
+                "name": "NMETH1/NMETH1",
+                "alias": "NMETH1/NMETH1",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=72/p=9"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "a27faff9-9ba5-490c-9f55-dbf7f26455ab",
+                "name": "RX16/TX16",
+                "alias": "RX16/TX16",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=16"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "c4f6ed83-da51-4925-b635-4ed023a88ca0",
+                "name": "L_VI",
+                "alias": "L_VI",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=12"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "7286b437-a559-4955-8424-f8703962cc35",
+                "name": "TM1/TM1",
+                "alias": "TM1/TM1",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=23"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "d3f71eee-7101-4959-a1e4-09fd27bccccd",
+                "name": "RX5/TX5",
+                "alias": "RX5/TX5",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=5"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "8d3defec-eeae-4970-b6cf-206c54ec7a3a",
+                "name": "RX29/TX29",
+                "alias": "RX29/TX29",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=29"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "37ecc346-852c-49a0-babb-2da6e2f7cd40",
+                "name": "RC",
+                "alias": "RC",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=8"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "fd70c800-f394-49c1-82a1-ba0edd9e893c",
+                "name": "L_IN",
+                "alias": "L_IN",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=14"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "a54c970c-058d-4a49-8f44-184ed58d4d8b",
+                "name": "RX6/TX6",
+                "alias": "RX6/TX6",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=6"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "67b4914b-40f9-4f9e-8e26-c7598b423f70"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "e99d9b07-54c4-4a67-b0e1-05e74b095ac5",
+                "name": "ETH2/ETH2",
+                "alias": "ETH2/ETH2",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=72/p=11"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "72295492-9137-4763-aa7a-3f4d9dfbbdc8"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "67a1f01b-673b-4adb-a4e2-d009a729faeb",
+                "name": "IN1/OUT1",
+                "alias": "IN1/OUT1",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=1/p=1"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "72295492-9137-4763-aa7a-3f4d9dfbbdc8"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "05b04206-ba05-4b4f-952d-712acbd6d0d5",
+                "name": "RX1/TX1",
+                "alias": "RX1/TX1",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=1/p=3"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "37efa083-3496-4bab-8040-3057ae8e3e2f",
+                "name": "RM1/RM1",
+                "alias": "RM1/RM1",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=20"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "ac62c4e4-8267-4c4d-9328-033f386a13d9",
+                "name": "RX26/TX26",
+                "alias": "RX26/TX26",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=26"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "67b4914b-40f9-4f9e-8e26-c7598b423f70"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "744cc248-40e6-4d2e-8607-7405701c9a8d",
+                "name": "ETH1/ETH1",
+                "alias": "ETH1/ETH1",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=72/p=10"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "cac6620c-5043-4dd0-8867-cb14344d491f",
+                "name": "RX24/TX24",
+                "alias": "RX24/TX24",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=24"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "8b327342-8e5d-4fdc-a237-d4e38abb10e0"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "4e8c5263-58d1-4dd4-9751-0c35d0ad1277",
+                "name": "NMETH1/NMETH1",
+                "alias": "NMETH1/NMETH1",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=71/p=9"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "81f69927-dd46-4944-804e-2a4a1712680e"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "829cbc55-968e-4df2-81c4-417030467ab2",
+                "name": "C_VO",
+                "alias": "C_VO",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=13/p=2"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "9d16d07c-8b9a-4e0e-bc1e-ffe13e819a91",
+                "name": "RX25/TX25",
+                "alias": "RX25/TX25",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=25"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "6c57a6f0-1feb-4e13-b6c2-b402419bc76d",
+                "name": "RX12/TX12",
+                "alias": "RX12/TX12",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=12"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "46a7d4c6-a31e-4ee9-b840-e282a64cd6fe",
+                "name": "RX14/TX14",
+                "alias": "RX14/TX14",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=14"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "57419f1f-cfce-4411-8b67-63b320593881"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "d3e85d62-cd55-4eea-8dac-16ab9faff5de",
+                "name": "IN2/OUT2",
+                "alias": "IN2/OUT2",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=10/p=2"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "57419f1f-cfce-4411-8b67-63b320593881"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "ff3884ab-f556-4f0d-85d2-52625efdd823",
+                "name": "IN1/OUT1",
+                "alias": "IN1/OUT1",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=10/p=1"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "de0156b9-dfbe-4f2c-8381-e8ed26741c0f",
+                "name": "RX19/TX19",
+                "alias": "RX19/TX19",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=19"
+              },
+              {
+                "parent-component-references": {
+                  "component-reference": [
+                    {
+                      "index": 1,
+                      "class": "iana-hardware:module",
+                      "uuid": "30b4a505-8422-4dbd-ac47-181a2d2391d9"
+                    }
+                  ]
+                },
+                "class": "iana-hardware:port",
+                "uuid": "177a36ca-710b-4f7a-ae14-1005100e3a84",
+                "name": "RX30/TX30",
+                "alias": "RX30/TX30",
+                "location": "/ne=HUAWEI_8_218/sh=0/sl=9/p=30"
+              }
+            ]
+          }
         },
         {
-          "uuid": "7f005a1f-d3b6-4e0c-8cc1-f19e512cc374",
-          "name": "A_U32_61",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9600 U32-ASON",
-          "software-rev": "V100R024C10SPC100",
           "mfg-name": "Huawei",
-          "serial-number": "123456075310A2000010",
-          "product-name": "OptiX OSN 9600 U32"
-        },
-        {
-          "uuid": "8857afa0-dbfc-4f06-b20b-97a3dd7cd5ea",
-          "name": "C-M24-69",
           "description": "",
+          "uuid": "33baba64-4929-45c3-89da-e7184fb868c9",
           "alias": "",
-          "hardware-rev": "OptiX OSN 9600 M24",
-          "software-rev": "V100R024C10SPC100",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301267N0M8000148",
-          "product-name": "OptiX OSN 9600 M24"
-        },
-        {
-          "uuid": "7ffe5921-9c0e-4f1a-9aca-37b621d5c70b",
-          "name": "NE 9-18",
-          "description": "",
-          "alias": "",
+          "product-name": "OptiX OSN 9800 M12",
+          "serial-number": "2102301555N02291022733",
           "hardware-rev": "OptiX OSN 9800 M12",
-          "software-rev": "V100R024C10",
-          "mfg-name": "Huawei",
-          "serial-number": "2102301555N0M4000763",
-          "product-name": "OptiX OSN 9800 M12"
+          "software-rev": "V100R024C10SPC100",
+          "name": "HUAWEI_8_238"
         },
         {
-          "uuid": "c1c7b507-5a7a-4f5a-9cb2-dc150aa19bf7",
-          "name": "M12_2_130",
-          "description": "",
-          "alias": "",
-          "hardware-rev": "OptiX OSN 9800 M12-ASON",
-          "software-rev": "V100R024C00SPC100",
           "mfg-name": "Huawei",
-          "serial-number": "2102301555N0M4000734",
-          "product-name": "OptiX OSN 9800 M12"
+          "description": "",
+          "uuid": "da60b3da-77b2-4854-8c70-c9d9ba50322b",
+          "alias": "",
+          "product-name": "OptiX OSN 9800 M24",
+          "serial-number": "2102301153N0L1000141",
+          "hardware-rev": "OptiX OSN 9800 M24",
+          "software-rev": "V100R024C10SPC100",
+          "name": "HUAWEI_8_217"
+        },
+        {
+          "mfg-name": "Huawei",
+          "description": "",
+          "uuid": "e48aa547-b080-49f9-b8bc-bb536d1d8a43",
+          "alias": "",
+          "product-name": "OptiX OSN 9800 M12",
+          "serial-number": "2102301555N0L8000789",
+          "hardware-rev": "OptiX OSN 9800 M12",
+          "software-rev": "V100R024C10SPC100",
+          "name": "HUAWEI_8_185"
         }
       ]
     }
