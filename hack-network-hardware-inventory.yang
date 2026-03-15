@@ -1,0 +1,30 @@
+module hack-network-hardware-inventory {
+  yang-version 1.1;
+  namespace "https://example.com/ns/hack-network-hardware-inventory";
+  prefix dev;
+
+  import ietf-network-hardware-inventory {
+    prefix nhi;
+  }
+
+  deviation "/nhi:network-hardware-inventory/nhi:network-elements"
+          + "/nhi:network-element/nhi:components/nhi:component"
+          + "/nhi:parent-component-references"
+          + "/nhi:component-reference/nhi:class" {
+    deviate replace {
+      type leafref {
+        path "../../../../nhi:component/nhi:class";
+      }
+    }
+  }
+  deviation "/nhi:network-hardware-inventory/nhi:network-elements"
+          + "/nhi:network-element/nhi:components/nhi:component"
+          + "/nhi:parent-component-references"
+          + "/nhi:component-reference/nhi:uuid" {
+    deviate replace {
+      type leafref {
+        path "../../../../nhi:component/nhi:uuid";
+      }
+    }
+  }
+}
